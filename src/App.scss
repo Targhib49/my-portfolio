@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+
+.headerJumbotron {
+	height: 100%;
+	background-color: rgb(93, 82, 240);
+	background-size: 100% 100%;
+	margin-bottom: 0;
+
+	.headerContainer {
+		height: 100%;
+
+		.headerRow {
+			height: 100%;
+
+			h1 {
+				font-family: 'Calligraffitti', cursive;
+				color: rgb(242, 250, 248);
+				font-weight: bold;
+				font-size: 50px;
+				text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.575);
+			}
+
+			p {
+				font-family: 'PT Sans Narrow', sans-serif;
+				font-size: 30px;
+				font-weight: bolder;
+				color: rgb(216, 202, 202);
+			}
+		}
+	}
+}
+
+.mainNav {
+	background-color: rgb(75, 67, 194);
+
+	.navToggle {
+		background-color: rgb(231, 221, 221);
+		border: none;
+	}
+
+	.navItems {
+		font-size: 18px;
+		color: #f3f3f3 !important;
+		text-transform: uppercase;
+		cursor: pointer;
+	}
+}
+
+.navItems:hover,
+.navItems:active {
+	color: rgb(230, 147, 241) !important;
+	text-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.425);
+}
+
+.bodyContainer {
+	min-height: 100%;
+
+	.titleRow {
+		min-height: 30%;
+
+		.aboutTitle {
+			text-transform: uppercase;
+			font-size: 40px;
+			color: rgb(116, 105, 105);
+		}
+	}
+
+	.skillRow {
+		min-height: 30%;
+
+		.fontIcon {
+			font-size: 50px;
+		}
+
+		.skillTitle {
+			text-transform: uppercase;
+			font-size: 20px;
+			font-weight: bold;
+			color: rgb(68, 64, 64);
+		}
+
+		.skillDetail {
+			font-size: 15px;
+			color: rgb(105, 97, 97);
+			font-family: 'Crimson Text', serif;
+		}
+	}
+
+	.bioRow {
+		min-height: 30%;
+		.bioTitle {
+			font-size: 30px;
+		}
+
+		.bioDetail {
+			font-family: 'PT Sans Narrow', sans-serif;
+		}
+	}
+}
+
+.portContainer {
+	height: 100%;
+	background-color: rgb(243, 242, 242);
+
+	.titleRow {
+		min-height: 30%;
+
+		.projectsTitle {
+			text-transform: uppercase;
+			font-size: 40px;
+			color: rgb(116, 105, 105);
+		}
+	}
+
+	.projectRow {
+		min-height: 40%;
+	}
+
+	.title {
+		font-size: 24px;
+		font-weight: bold;
+	}
+
+	.desc {
+		font-family: 'Crimson Text', serif;
+	}
+}
+
+.contContainer {
+	height: 100%;
+	background-color: rgb(32, 32, 32);
+	color: white;
+
+	.contactRow {
+		min-height: 30%;
+
+		.contactTitle {
+			text-transform: uppercase;
+			font-size: 40px;
+			color: rgb(212, 204, 204);
+		}
+	}
+
+	.text {
+		resize: none;
+	}
+
+	.up {
+		font-size: 64px;
+		cursor: pointer;
+	}
+
+	.github {
+		font-size: 64px;
+	}
+}
