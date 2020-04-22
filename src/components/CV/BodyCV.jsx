@@ -19,22 +19,27 @@ export default class BodyCV extends Component {
 									<Col xl={2}>Nama Lengkap</Col>
 									<Col xl={1}>:</Col>
 									<Col xl={3}>Targhib Ibrahim</Col>
-									<Col xl={2}>Email</Col>
+									<Col xl={2}>Language Skill</Col>
 									<Col xl={1}>:</Col>
-									<Col xl={3}>targhib.ibrahim49@gmail.com</Col>
 								</Row>
 								<Row>
 									<Col xl={2}>TTL</Col>
 									<Col xl={1}>:</Col>
 									<Col xl={3}>Jakarta, 4/9/1998</Col>
-									<Col xl={2}>Github</Col>
-									<Col xl={1}>:</Col>
-									<Col xl={3}>https://github.com/Targhib49</Col>
+									<Col xl={3}>English (Certified: Toefl(588))</Col>
+									<Col xl={3}>Japanese (Not certified-Passive)</Col>
 								</Row>
 								<Row>
 									<Col xl={2}>Domisili</Col>
 									<Col xl={1}>:</Col>
 									<Col xl={3}>Karawang, Jawa Barat</Col>
+									<Col xl={3}>Arabic (Not certified-Passive)</Col>
+									<Col xl={3}>Spanish (Not certified-Passive)</Col>
+								</Row>
+								<Row>
+									<Col xl={2}>Email</Col>
+									<Col xl={1}>:</Col>
+									<Col xl={3}>targhib.ibrahim49@gmail.com</Col>
 								</Row>
 							</Col>
 						</Row>
