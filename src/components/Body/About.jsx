@@ -3,6 +3,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faLightbulb } from '@fortawesome/free-regular-svg-icons';
 import { faRocket } from '@fortawesome/free-solid-svg-icons';
+import { Link as NewLink } from 'react-router-dom';
 
 export default class About extends Component {
 	render() {
@@ -36,7 +37,7 @@ export default class About extends Component {
 							I'm currently on coding bootcamp at Impactbyte Jakarta<br />
 							I have serious passion in both frontend and backend.<br /> Especially intuitive UI, fast
 							website, and animations<br />
-							<a href="#cv">Check out my CV here for better knowledge about me</a>
+							<NewLink to="/cv">Check out my CV here for better knowledge about me</NewLink>
 						</p>
 					</Col>
 				</Row>

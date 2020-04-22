@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import { Link as NewLink } from 'react-router-dom';
 
 export default class MainNavbar extends Component {
 	render() {
@@ -21,9 +22,9 @@ export default class MainNavbar extends Component {
 						<Link to="contactSect" className="navItems nav-link" smooth={true} duration={1000}>
 							Contact
 						</Link>
-						<Nav.Link href="CV" className="navItems">
+						<NewLink to="/cv" className="navItems nav-link">
 							CV
-						</Nav.Link>
+						</NewLink>
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
